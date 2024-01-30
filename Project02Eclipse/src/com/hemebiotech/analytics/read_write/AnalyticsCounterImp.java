@@ -1,8 +1,7 @@
 package com.hemebiotech.analytics.read_write;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -11,7 +10,7 @@ public class AnalyticsCounter {
     ISymptomWriter writer;
 
 
-    public AnalyticsCounter(ISymptomReader reader, ISymptomWriter writer) {
+    public AnalyticsCounterImp(ISymptomReader reader, ISymptomWriter writer) {
         this.reader = reader;
         this.writer = writer;
     }
@@ -25,19 +24,8 @@ public class AnalyticsCounter {
         Map<String, Long> map = symptoms
                 .stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-        return map;
-    }
 
-
-    public Map<String, Long> sortSymptoms(Map<String, Long> symptoms) {
-        symptoms
-                .entrySet()
-                .stream()
-                .sorted()
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-
-        return symptoms;
-
+        return new TreeMap<>(map);
     }
 
 

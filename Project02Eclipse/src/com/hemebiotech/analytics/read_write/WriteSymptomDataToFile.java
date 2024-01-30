@@ -3,18 +3,19 @@ package com.hemebiotech.analytics.read_write;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
-import java.util.Set;
 
 
-public class WriteSymptomDataFromFile implements ISymptomWriter {
+public class WriteSymptomDataToFile implements ISymptomWriter {
 	private Map<String,Long> map;
 	String filename;
 
 
 
-	public WriteSymptomDataFromFile(String filename) {
+	public WriteSymptomDataToFile(String filename) {
 		this.filename = filename;
 	}
+
+
 	@Override
 	public void WriteSymptoms(Map<String,Long> map) throws IOException {
 
