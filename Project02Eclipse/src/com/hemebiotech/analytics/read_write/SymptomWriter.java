@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 
-public interface ISymptomWriter {
+public interface SymptomWriter {
 
 	void WriteSymptoms(Map<String,Long> map) throws IOException;
 }

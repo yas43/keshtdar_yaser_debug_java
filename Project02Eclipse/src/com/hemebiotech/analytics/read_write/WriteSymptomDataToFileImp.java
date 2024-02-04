@@ -5,13 +5,13 @@ import java.io.IOException;
 import java.util.Map;
 
 
-public class WriteSymptomDataToFile implements ISymptomWriter {
+public class WriteSymptomDataToFileImp implements SymptomWriter {
 	private Map<String,Long> map;
 	String filename;
 
 
 
-	public WriteSymptomDataToFile(String filename) {
+	public WriteSymptomDataToFileImp(String filename) {
 		this.filename = filename;
 	}
 
