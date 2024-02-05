@@ -7,7 +7,7 @@ import java.util.Map;
 public class Application {
 
     public static final String SYMPTOMS_FILE = "symptoms.txt";
-    public static final String RESULT_OUT_FILE = "result_test10.txt";
+    public static final String RESULT_OUT_FILE = "result_test11.txt";
 
 
     static SymptomReader symptomReader  = new ReadSymptomDataFromFileImp(SYMPTOMS_FILE);
