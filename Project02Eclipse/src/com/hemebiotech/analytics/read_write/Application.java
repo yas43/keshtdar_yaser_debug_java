@@ -7,7 +7,7 @@ import java.util.Map;
 public class Application {
 
     public static final String SYMPTOMS_FILE = "symptoms.txt";
-    public static final String RESULT_OUT_FILE = "result_test.txt";
+    public static final String RESULT_OUT_FILE = "result_test10.txt";
 
 
     static SymptomReader symptomReader  = new ReadSymptomDataFromFileImp(SYMPTOMS_FILE);
@@ -24,7 +24,7 @@ public class Application {
 
 
 
-/*AnalyticsCounter obj = new AnalyticsCounterImp(symptomReader,symptomWriter);*/
+
 
 
     }
