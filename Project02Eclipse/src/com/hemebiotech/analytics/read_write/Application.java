@@ -9,18 +9,23 @@ public class Application {
     public static final String SYMPTOMS_FILE = "symptoms.txt";
     public static final String RESULT_OUT_FILE = "result_test11.txt";
 
-
     static SymptomReader symptomReader  = new ReadSymptomDataFromFileImp(SYMPTOMS_FILE);
-    static SymptomWriter symptomWriter = new WriteSymptomDataToFileImp(RESULT_OUT_FILE); // Todo : it's WriteSymptomDataToFile
-    static AnalyticsCounterImp analyticsCounterImp = new AnalyticsCounterImp(symptomReader,symptomWriter); // Todo : !! create an interface
+
+
+    static SymptomCounter symptomsCounter = new SymptomsCounterImpl();
+
+
+    static SymptomWriter symptomWriter = new WriteSymptomDataToFileImp(RESULT_OUT_FILE);
+    static AnalyticsCounter analyticsCounterImp = new AnalyticsCounterImp(symptomReader, symptomsCounter, symptomWriter);
+
     public static void main(String[] args) throws IOException {
 
-        List<String> list = analyticsCounterImp.getSymptoms(); //read the file and save it in a list
+        List<String> list = analyticsCounterImp.getSymptoms(); //read the file and save it as a list
 
-        Map<String,Long> counted_map = analyticsCounterImp.countSymptoms(list);//take file as a list and count occurrence for every item over a map
+        Map<String,Long> counted_map = analyticsCounterImp.countSymptoms(list);//take a list  as parameters and count occurrence for every item
+                                                                                // and sort it and return result over a map
 
-        analyticsCounterImp.writeSymptoms(counted_map);
-
+        analyticsCounterImp.writeSymptoms(counted_map); // write a map line by line and save it a file
 
 
 

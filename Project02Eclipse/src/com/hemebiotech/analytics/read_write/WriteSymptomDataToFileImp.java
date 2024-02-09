@@ -6,27 +6,21 @@ import java.util.Map;
 
 
 public class WriteSymptomDataToFileImp implements SymptomWriter {
-	private Map<String,Long> map;
-	String filename;
-
-
+	private final String filename;
 
 	public WriteSymptomDataToFileImp(String filename) {
 		this.filename = filename;
 	}
 
-
 	@Override
 	public void WriteSymptoms(Map<String,Long> map) throws IOException {
 
 
-		FileWriter writer = new FileWriter (filename);
-
-		writer = new FileWriter(filename);
+		FileWriter writer = new FileWriter(filename);
 		for (var entry : map.entrySet()) {
 
-			writer.write(String.valueOf(entry)+ "\n");
-			/*System.out.println(entry.getKey() + "/" + entry.getValue());*/
+			writer.write(entry + "\n");
+
 		}
 
 		writer.close();

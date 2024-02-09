@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7afc12dd-e93e-4e42-92e7-7eedceae8b45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/symptoms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7afc12dd-e93e-4e42-92e7-7eedceae8b45" name="Default Changelist" comment="changement">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/ReadSymptomDataFromFileImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/ReadSymptomDataFromFileImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" afterDir="false" />
     </list>
-    <list id="4c51f280-b196-4230-8637-8c13c855ba22" name="Changes by frank" comment="">
+    <list id="4c51f280-b196-4230-8637-8c13c855ba22" name="Changes by frank" comment="Changes by frank">
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" afterDir="false" />
@@ -20,15 +25,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yas43"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yas43&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -38,12 +51,33 @@
     </option>
   </component>
   <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java">
+      <ranges>
+        <range start1="8" end1="12" start2="8" end2="9" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="17" end1="18" start2="14" end2="14" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="22" end1="25" start2="18" end2="19" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+        <range start1="27" end1="29" start2="21" end2="23" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java">
+      <ranges>
+        <range start1="5" end1="8" start2="5" end2="5" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="10" end1="12" start2="7" end2="10" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+        <range start1="14" end1="15" start2="12" end2="13" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+        <range start1="16" end1="16" start2="14" end2="15" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+        <range start1="24" end1="24" start2="23" end2="24" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+        <range start1="25" end1="28" start2="25" end2="25" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="29" end1="30" start2="26" end2="27" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+      </ranges>
+    </file>
     <file path="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java">
       <ranges>
-        <range start1="9" end1="10" start2="9" end2="10" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="13" end1="13" start2="13" end2="15" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="14" end1="15" start2="16" end2="18" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="23" end1="29" start2="26" end2="26" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+        <range start1="10" end1="11" start2="10" end2="10" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="13" end1="15" start2="12" end2="20" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
+        <range start1="17" end1="18" start2="22" end2="26" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="19" end1="20" start2="27" end2="28" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="21" end1="22" start2="29" end2="33" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
+        <range start1="23" end1="29" start2="34" end2="34" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
       </ranges>
     </file>
   </component>
@@ -51,28 +85,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
     <option name="sortByName" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bcq8Gnrxdw5nD7aZMRFPDSrUS6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "b__dev__mac",
-    "kotlin-language-version-configured": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;b__dev__mac&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ykeshtdar/IdeaProjects/keshtdar_yaser_debug_java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,6 +125,15 @@
       <option name="presentableId" value="Default" />
       <updated>1706524554601</updated>
     </task>
+    <task id="LOCAL-00001" summary="changement">
+      <option name="closed" value="true" />
+      <created>1707161417218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707161417218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,5 +146,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changement" />
+    <MESSAGE value="Changes by frank" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by frank" />
   </component>
 </project>
