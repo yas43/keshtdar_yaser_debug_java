@@ -7,19 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7afc12dd-e93e-4e42-92e7-7eedceae8b45" name="Default Changelist" comment="changement">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="7afc12dd-e93e-4e42-92e7-7eedceae8b45" name="Default Changelist" comment="lastcorrection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/ReadSymptomDataFromFileImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/ReadSymptomDataFromFileImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/SymptomReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/SymptomReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/SymptomWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/SymptomWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" afterDir="false" />
     </list>
-    <list id="4c51f280-b196-4230-8637-8c13c855ba22" name="Changes by frank" comment="Changes by frank">
-      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java" afterDir="false" />
-    </list>
+    <list id="4c51f280-b196-4230-8637-8c13c855ba22" name="Changes by frank" comment="Changes by frank" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,37 +46,6 @@
         <option name="url" value="https://github.com/yas43/keshtdar_yaser_debug_java" />
       </UrlAndAccount>
     </option>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/WriteSymptomDataToFileImp.java">
-      <ranges>
-        <range start1="8" end1="12" start2="8" end2="9" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="17" end1="18" start2="14" end2="14" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="22" end1="25" start2="18" end2="19" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="27" end1="29" start2="21" end2="23" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/AnalyticsCounterImp.java">
-      <ranges>
-        <range start1="5" end1="8" start2="5" end2="5" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="10" end1="12" start2="7" end2="10" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="14" end1="15" start2="12" end2="13" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="16" end1="16" start2="14" end2="15" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="24" end1="24" start2="23" end2="24" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="25" end1="28" start2="25" end2="25" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="29" end1="30" start2="26" end2="27" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/Project02Eclipse/src/com/hemebiotech/analytics/read_write/Application.java">
-      <ranges>
-        <range start1="10" end1="11" start2="10" end2="10" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="13" end1="15" start2="12" end2="20" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-        <range start1="17" end1="18" start2="22" end2="26" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="19" end1="20" start2="27" end2="28" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="21" end1="22" start2="29" end2="33" changelist="7afc12dd-e93e-4e42-92e7-7eedceae8b45" />
-        <range start1="23" end1="29" start2="34" end2="34" changelist="4c51f280-b196-4230-8637-8c13c855ba22" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -133,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707161417218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lastcorrection">
+      <option name="closed" value="true" />
+      <created>1707494981492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707494981492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changement" />
     <MESSAGE value="Changes by frank" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by frank" />
+    <MESSAGE value="lastcorrection" />
+    <option name="LAST_COMMIT_MESSAGE" value="lastcorrection" />
   </component>
 </project>

@@ -29,6 +29,6 @@ public class AnalyticsCounterImp implements AnalyticsCounter {
 
 
     public void writeSymptoms(Map<String, Long> symptoms) throws IOException {
-        writer.WriteSymptoms(symptoms);
+        writer.writeSymptoms(symptoms);
     }
 }

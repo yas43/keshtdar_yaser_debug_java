@@ -13,7 +13,7 @@ public class WriteSymptomDataToFileImp implements SymptomWriter {
 	}
 
 	@Override
-	public void WriteSymptoms(Map<String,Long> map) throws IOException {
+	public void writeSymptoms(Map<String,Long> map) throws IOException {
 
 
 		FileWriter writer = new FileWriter(filename);
